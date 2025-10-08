@@ -1,0 +1,10 @@
+train: C:/Army_project/data/Filtered/Train/images
+val: C:/Army_project/data/Filtered/Val/images
+
+nc: 5
+names:
+  - 어선
+  - 상선
+  - 군함
+  - 사람
+  - 유조류

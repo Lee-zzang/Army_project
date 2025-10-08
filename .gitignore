@@ -1,0 +1,30 @@
+# --- 환경/캐시 ---
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# --- 데이터 ---
+data/
+runs/
+weights/
+datasets/
+*.zip
+*.tar
+*.csv
+*.jpg
+*.png
+*.mp4
+*.avi
+*.json
+
+# --- IDE/설정 ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- 예외 허용 ---
+!data/*.yaml
+!README.md
