@@ -1,4 +1,4 @@
-from modules.yolo_module import detect_objects
+from backup.yolo_module import detect_objects
 from modules.llm_module import generate_warning
 
 if __name__ == "__main__":

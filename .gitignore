@@ -28,3 +28,23 @@ Thumbs.db
 # --- 예외 허용 ---
 !data/*.yaml
 !README.md
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Log files
+*.log
+detections.log
+
+# Environment variables
+.env
